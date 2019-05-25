@@ -17,13 +17,14 @@ def randomheading():
   heading = randint(0, 360)
   setheading(heading)
 
+speed(0)
+
 for i in range(1, 30):
   randomcolour()
   randomplace()
   randomheading()
   stamp()
 
-speed(0)
 clear()
 
 def drawcircle():
