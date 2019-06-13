@@ -4,9 +4,9 @@ import pandas as pd
 
 driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
 
-products=[] #List to store name of the book
-prices=[] #List to store price of the book
-ratings=[] #List to store rating of the book
+products=[]	#List to store name of the book
+prices=[]	#List to store price of the book
+ratings=[]	#List to store rating of the book
 driver.get("https://www.flipkart.com/books/fiction-nonfiction-books/literature-fiction-books/pr?sid=bks,fnf,gld&otracker=clp_banner_2_4.bannerX3.BANNER_theliterature-fiction-store_6RCUPDEH53&fm=neo%2Fmerchandising&iid=M_bd5e801a-54db-4fbb-8199-487de2f78537_3.6RCUPDEH53&ppt=clp&ppn=theliterature-fiction-store&ssid=aafuynrif40000001560077874219")
 
 content = driver.page_source
