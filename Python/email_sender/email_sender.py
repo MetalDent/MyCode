@@ -1,18 +1,18 @@
 import smtplib
-import sqlite3
+import json
 
 from email.mime.text import MIMEText
-
-conn = sqlite3.connect('recipients.db')
-cursor = conn.cursor()
-
 
 msg = MIMEText("""Hello""")
 s = smtplib.SMTP('Smtp.gmail.com')	#smtp of gmail
 s.starttls()
 s.login('username','password')	#login credentials
 sender = 'priyapandya274@gmail.com'	#sender email
-recipients = cursor.execute("select * from sheet1;")	#recepients from database
+recipients = []	#recepients from database
+
+with open('recipients.txt', 'r') as filehandle:	#get recipients from the text file
+    recipients = json.load(filehandle)
+
 msg['Subject'] = "Test"	#subject
 msg['From'] = sender	#from
 msg['To'] = ", ".join(recipients)	#to
