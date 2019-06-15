@@ -12,7 +12,7 @@ s = smtplib.SMTP('Smtp.gmail.com')	#smtp of gmail
 s.starttls()
 s.login('username','password')	#login credentials
 sender = 'priyapandya274@gmail.com'	#sender email
-recipients = []	#recepients from database
+recipients = []	#recipients from database
 
 file_location = '/path/to/file'	#path of the attached file
 
