@@ -1,5 +1,6 @@
 import smtplib
 import json
+import getpass
 
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -7,24 +8,24 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os.path
 
-msg = MIMEText("""Hello""")
 s = smtplib.SMTP('Smtp.gmail.com')	#smtp of gmail
 s.starttls()
-s.login('username','password')	#login credentials
+
+password = getpass.getpass(prompt='Password: ', stream=None)	#password
 sender = 'priyapandya274@gmail.com'	#sender email
+s.login(sender, password)	#login 
+
 recipients = []	#recipients from database
-
-file_location = '/path/to/file'	#path of the attached file
-
-
 with open('recipients.txt', 'r') as filehandle:	#get recipients from the text file
     recipients = json.load(filehandle)
 
 msg = MIMEMultipart()
-
+msg = MIMEText("""Hello""")
 msg['Subject'] = "Test"	#subject
 msg['From'] = sender	#from
 msg['To'] = ", ".join(recipients)	#to
+
+file_location = '/path/to/file'	#path of the attached file
 
 #Setup the attachment
 filename = os.path.basename(file_location)
