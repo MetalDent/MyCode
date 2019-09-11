@@ -1,0 +1,377 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"no_lines"
+			],
+			[
+				"pri",
+				"primes"
+			],
+			[
+				"vali",
+				"valid_recipients"
+			],
+			[
+				"statu",
+				"status"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"stat",
+				"status_dict"
+			],
+			[
+				"st",
+				"Status"
+			],
+			[
+				"status_",
+				"status_dict"
+			],
+			[
+				"rec",
+				"recipients"
+			],
+			[
+				"file",
+				"filehandle"
+			],
+			[
+				"cou",
+				"count_vow_con"
+			],
+			[
+				"re",
+				"recipients"
+			],
+			[
+				"str",
+				"string.h\tstandard header"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"calculate_",
+				"calculate_meters"
+			],
+			[
+				"acc",
+				"access_token_secret"
+			],
+			[
+				"con",
+				"consumer_secret"
+			],
+			[
+				"pred",
+				"prediction2"
+			],
+			[
+				"predi",
+				"predict"
+			],
+			[
+				"pre",
+				"prediction"
+			],
+			[
+				"get",
+				"get_image_url_cat"
+			],
+			[
+				"url",
+				"url_cat"
+			],
+			[
+				"fla",
+				"flatten_json"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/media/metaldent/Study_Coding1/Programming/MyCode/Django/py_venv"
+	],
+	"file_history":
+	[
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D4/q2_oper.txt",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D4/test.txt",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D4/q5.l",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D4/q4.l",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D4/q3.l",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D4/q2.l",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D4/q1.l",
+		"/media/metaldent/Study_Coding1/AppsTech/git/email_sender/email_sender_final.py",
+		"/media/metaldent/Study_Coding1/Contribution/open_spiel/docs/contributing.md",
+		"/media/metaldent/Study_Coding1/Contribution/Flutter/plugins/packages/webview_flutter/test/webview_flutter_test.dart",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern11.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern10.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern9.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern8.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern7.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern6.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern5.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern4.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern3.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern2.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D2/pattern1.java",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D1/check_prime.java",
+		"/home/metaldent/prac4.c",
+		"/media/metaldent/Study_Coding1/Study/Java/Lab/D1/check_even.java",
+		"/media/metaldent/Study_Coding1/AppsTech/git/email_sender/MainWindow.py",
+		"/media/metaldent/Study_Coding1/AppsTech/git/email_sender/email_sender_GUI.py",
+		"/media/metaldent/Study_Coding1/100-days-of-code/r1-log.md",
+		"/media/metaldent/Study_Coding1/100-days-of-code/log.md",
+		"/media/metaldent/Study_Coding1/Study/Java/series_fraction.java",
+		"/media/metaldent/Study_Coding1/Study/Java/series_factorial.java",
+		"/media/metaldent/Study_Coding1/Study/Java/series_square.java",
+		"/media/metaldent/Study_Coding1/Study/Java/check_armstrong.java",
+		"/media/metaldent/Study_Coding1/Study/Java/perfect_no.java",
+		"/media/metaldent/Study_Coding1/Study/Java/prime_factorial.java",
+		"/media/metaldent/Study_Coding1/Study/Java/check_prime.java",
+		"/media/metaldent/Study_Coding1/Study/Java/factorial_of_n.java",
+		"/media/metaldent/Study_Coding1/Study/Java/table_of_n.java",
+		"/media/metaldent/Study_Coding1/Study/Java/check_leap_year.java",
+		"/media/metaldent/Study_Coding1/Study/Java/check_even.java",
+		"/home/metaldent/prac3.java",
+		"/home/metaldent/prac1.py",
+		"/home/metaldent/prac2.py",
+		"/media/metaldent/Study_Coding1/AppsTech/git/email_sender/GUI.py",
+		"/media/metaldent/Study_Coding1/Study/CO/Lab/exp3",
+		"/media/metaldent/Study_Coding1/Study/RDBMS/Lab/lab2",
+		"/media/metaldent/Study_Coding1/Study/RDBMS/Lab/lab1",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D2/q3.c",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D3/text.l",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D3/D3_programs",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D3/meta-char",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D2/q4.c",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D2/D2_programs",
+		"/media/metaldent/Study_Coding1/AppsTech/git/email_sender/validateEmail.py",
+		"/media/metaldent/Study_Coding1/AppsTech/git/email_sender/recipients.txt",
+		"/media/metaldent/Study_Coding1/Study/CO/exp2",
+		"/media/metaldent/Study_Coding1/Study/CO/exp1",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D1/q4.c",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D1/q3.c",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D1/q2.c",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D1/q1.c",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D2/q1_and_2.c",
+		"/media/metaldent/Study_Coding1/Study/CO/D2_programs",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D2/q2.c",
+		"/media/metaldent/Study_Coding1/Study/OOPS/Lab/p3_d10.cpp",
+		"/media/metaldent/Study_Coding1/Study/CO/q1.c",
+		"/media/metaldent/Study_Coding1/AppsTech/git/email_sender/email_sender.py",
+		"/media/metaldent/Study_Coding1/Programming/Data_Science_Code/WQU/W2/W2.md",
+		"/media/metaldent/Study_Coding1/Programming/Data_Science_Code/WQU/W3/W3.md",
+		"/media/metaldent/Study_Coding1/Study/CO/OC_lab_exp",
+		"/media/metaldent/Study_Coding1/Programming/Data_Science_Code/WQU/W1/W1.md",
+		"/home/metaldent/temp.py",
+		"/media/metaldent/Study_Coding1/Study/CD/CD lab/D1/D1_programs",
+		"/media/metaldent/Study_Coding1/AppsTech/git/email_sender/Python-Email-Verification-Script.py",
+		"/media/metaldent/Study_Coding1/Programming/MyCode/Python/PyQt/image.py",
+		"/media/metaldent/Study_Coding1/Programming/MyCode/Python/PyQt/color_design.py",
+		"/media/metaldent/Study_Coding1/Programming/MyCode/Python/PyQt/table.py",
+		"/media/metaldent/Study_Coding1/Programming/MyCode/Python/PyQt/box.py",
+		"/media/metaldent/Study_Coding1/Programming/MyCode/Python/PyQt/tp_window.py",
+		"/media/metaldent/Study_Coding1/Programming/MyCode/Python/PyQt/msg.py",
+		"/media/metaldent/Study_Coding1/Contribution/Gnome/GUADEC apps/gnome_travel_subsidy.markdown",
+		"/media/metaldent/Study_Coding1/Programming/MyCode/Python/PyQt/hello_world.py",
+		"/home/metaldent/check.py",
+		"/media/metaldent/Study_Coding1/Programming/Data_Science_Code/W1_Python/genetic_algo.py",
+		"/media/metaldent/Study_Coding1/Programming/Data_Science_Code/W1_Python/pred_stock_price.py",
+		"/media/metaldent/Study_Coding1/Contribution/Gnome/GUADEC apps/connfa-android/app/src/guadec/gnome_travel_subsidy.markdown",
+		"/media/metaldent/Study_Coding1/Programming/Data_Science_Code/W1_Python/hello_world.py",
+		"/media/metaldent/Study_Coding1/Programming/Data_Science_Code/W2_Stats_Probability/log.md",
+		"/media/metaldent/Study_Coding1/Contribution/sdk/sdk/lib/core/list.dart",
+		"/media/metaldent/Study_Coding/Programming/Data_Science_Code/W1_Python/deep_dream.py",
+		"/media/metaldent/Study_Coding/Programming/Data_Science_Code/W1_Python/pred_stock_price.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/Tkinter/calculator.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/Tkinter/conversion.py",
+		"/media/metaldent/Study_Coding/life_essay",
+		"/media/metaldent/Study_Coding/Programming/Data_Science_Code/W1_Python/twitter_sentiment_analysis.py",
+		"/media/metaldent/Study_Coding/Contribution/Flutter/plugins/packages/webview_flutter/lib/webview_flutter.dart",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/email_sender/email_sender.py",
+		"/media/metaldent/Study_Coding/Programming/Data_Science_Code/W1_Python/M_F_predict.py",
+		"/media/metaldent/Study_Coding/Programming/Data_Science_Code/W1_Python/movie_recommend.py",
+		"/home/metaldent/prac.py",
+		"/media/metaldent/Study_Coding/Bot/DoggoBot/doggo_bot.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/audio_to_text.py",
+		"/media/metaldent/Study_Coding/Programming/Data_Science_Code/W1_Python/tweets.csv",
+		"/media/metaldent/Study_Coding/Bot/uberRide/ride.py",
+		"/media/metaldent/Study_Coding/Bot/PizzzzzaaBot/order.py",
+		"/media/metaldent/Study_Coding/Bot/PizzzzzaaBot/requirements.txt",
+		"/media/metaldent/Study_Coding/GK-web_dev",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/email_sender/recipients.txt",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/webscraping/webscraping.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/webscraping.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/email_sender.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/Tkinter/login.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/Tkinter/notepad.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/guess_no.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/image_download.py",
+		"/home/metaldent/.cache/.fr-w8L8Jm/sample/activity_main.xml",
+		"/media/metaldent/Study_Coding/TicTacToe-python/TicTacToe.py",
+		"/media/metaldent/Study_Coding/Programming/MyCode/Python/calendar_code.py"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "practice.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
