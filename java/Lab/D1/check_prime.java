@@ -16,7 +16,7 @@ class check_prime {
 
 	public static void main(String[] args) {
 		
-		prime_factorial ob = new prime_factorial();
+		check_prime ob = new check_prime();
 
 		Scanner in = new Scanner(System.in);
 
