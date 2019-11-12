@@ -1,27 +1,26 @@
-import java.io.*;
-public class q22
-{
-    public static void main(String args[])throws IOException
-    {
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+import java.util.Scanner;
+
+class primorial {
+    public static void main(String args[]) {
+        Scanner in = new Scanner(System.in);
         System.out.println("Enter the number ");
-        int num=Integer.parseInt(br.readLine());
+        int n=in.nextInt();
         long fact=1;
-        for(int i=num;i>1;i--)
+        for(int i=n;i>1;i--)
         {
-            int c=0;
+            int ctr=0;
             for(int j=1;j<=i;j++)
             {
                 if(i%j==0)
                 {
-                    c++;
+                    ctr++;
                 }
             }
-            if(c==2)
+            if(ctr==2)
             {
                 fact=fact*i;
             }
         }
-        System.out.println("Primorial of "+num+" is "+fact);
+        System.out.println("Primorial of "+n+" is "+fact);
     }
 }

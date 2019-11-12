@@ -1,24 +1,22 @@
 import java.util.Scanner;
-class oddDivisors
-{
-	static int nod,ned;
+
+class odd_even_divisors {
+	static int nO, nE;
 	public static void main(String[] args) {
 		int n;
-		Scanner obj = new Scanner(System.in);
-		System.out.println("enter the number");
-		n=obj.nextInt();
-		nod=ned=0;
-		for(int i=1;i< n;i++)
-		{
-			if(n%i==0)
-			{
-				if(i%2==0)
-					ned++;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter the no: ");
+		n = in.nextInt();
+		nO = nE = 0;
+		for(int i = 1 ; i < n ; i++) {
+			if(n%i == 0) {
+				if(i%2 == 0)
+					nE++;
 				else
-					nod++;
+					nO++;
 			}
 		}
-		System.out.println("no.of odd divisors "+nod+"\nno.of even divisors "+ned);
-	}
 
+		System.out.println("No.of odd divisors " + nO + "\nNo.of even divisors " + nE);
+	}
 }

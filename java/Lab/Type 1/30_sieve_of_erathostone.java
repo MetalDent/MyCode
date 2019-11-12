@@ -1,7 +1,8 @@
-import java.io.*;
-class q30
+import java.util.Scanner;
+
+class soe
 { 
-	void q30(int n) 
+	void soe(int n) 
 	{  
 		boolean prime[] = new boolean[n+1]; 
 		for(int i=0;i<=n;i++) 
@@ -25,15 +26,15 @@ class q30
 		} 
 	} 
 	 
-	public static void main(String args[])throws IOException
+	public static void main(String args[])
 	{ 
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		Scanner in = new Scanner(System.in);
         System.out.println("Enter the number ");
-        int n=Integer.parseInt(br.readLine()); 
+        int n=in.nextInt();
 		System.out.print("Following are the prime numbers "); 
 		System.out.println("smaller than or equal to " + n); 
-		q30 g = new q30(); 
-		g.q30(n); 
+		soe obj = new soe(); 
+		obj.soe(n); 
 	} 
 } 
 

@@ -1,17 +1,18 @@
-import java.io.*;
-class q27{
-    public static void main(String[] args)throws IOException {
+import java.util.Scanner;
+
+class invertible_matrix{
+    public static void main(String[] args) {
         
      
    int n, i, j;double d;
    int matrix[][]=new int[10][10];   
    System.out.println("Enter the size of the matrix:");
-   BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-       n=Integer.parseInt(br.readLine());  
+    Scanner in = new Scanner(System.in);
+       n=in.nextInt();
        System.out.println( "Enter the elements of the matrix:");
    for (i = 0; i < n; i++)
       for (j = 0; j < n; j++)
-        matrix[i][j]=Integer.parseInt(br.readLine());  
+        matrix[i][j]=in.nextInt(); 
    System.out.println("The entered matrix is:");
    for (i = 0; i < n; i++) {  
       for (j = 0; j < n; j++)

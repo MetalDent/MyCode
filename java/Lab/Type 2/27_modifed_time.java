@@ -1,8 +1,7 @@
-//get last modified time of file
 import java.io.File;
 import java.util.Date;
 
-public class q27
+public class modified_time
  {
        public static void main(String[] args) {
        File file = new File("new.txt");

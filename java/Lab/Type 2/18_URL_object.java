@@ -1,7 +1,7 @@
 import java.net.MalformedURLException;
 import java.net.URL;
  
-public class q18 {
+class URL_obj {
     public static void main(String a[]){
         try {
             String myUrl = "http://www.java2novice.com";

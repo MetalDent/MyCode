@@ -1,7 +1,6 @@
-//q 35
 import java.util.*;
 
-public class q35 {
+class student_record {
 
 	public static void main(String[] args) {
 		

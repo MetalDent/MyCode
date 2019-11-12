@@ -1,12 +1,10 @@
-//q47
-
 import java.util.Scanner;
-public class assertTest{
+class assert_usage{
 	
 	public static void main(String[] args) {
 	
-		Scanner s = new Scanner(System.in);
-		int n = s.nextInt();
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
 		assert n != 1 : "Neither prime nor composite";
 		for (int i = 2; i * i < n; i++) {
 			

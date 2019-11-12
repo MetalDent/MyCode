@@ -1,19 +1,17 @@
-package com.java2novice.iterator;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class MyCollectionIterator {
+class collectionobjects {
 
 	public static void main(String a[]){
 		
 		List<String> myList = new ArrayList<String>();
-		myList.add("Java");
-		myList.add("Unix");
-		myList.add("Oracle");
-		myList.add("C++");
-		myList.add("Perl");
+		myList.add("Hello");
+		myList.add("Hi");
+		myList.add("World");
+		myList.add("Yo");
+		myList.add("Meow");
 		Iterator<String> itr = myList.iterator();
 		while(itr.hasNext()){
 			System.out.println(itr.next());

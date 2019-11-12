@@ -1,8 +1,8 @@
-public class q36{
+class cust_record{
 	
 	public static void main(String[] args) {
 		
-		Bill b = new Bill("AMRITA", "Bhubaneswar", "0674292880", 12300, 250);
+		Bill b = new Bill("AMY", "CA", "987654321012", 9874, 123);
 		b.cal();
 		b.show();
 	}

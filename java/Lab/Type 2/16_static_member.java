@@ -1,6 +1,4 @@
-//access top level class variables
- 
-public class q16 {
+class static_member {
      
     public static String staticVar = "You can access me!!!";
     private String privVar = "You cannot access me";
@@ -15,7 +13,7 @@ public class q16 {
     }
      
     public static void main(String a[]){
-       q16.ChildClass cc = new q16.ChildClass();
+       static_member.ChildClass cc = new static_member.ChildClass();
         cc.myMethod();
     }
 }

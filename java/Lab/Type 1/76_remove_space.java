@@ -1,10 +1,11 @@
 import java.util.Scanner;
-class q76space
+
+class remove_space
 {
 	public static void main(String[] args) {
-		Scanner obj= new Scanner(System.in);
+		Scanner in= new Scanner(System.in);
 		System.out.println("enter the string");
-		String str=obj.nextLine();
+		String str=in.nextLine();
 		str=str.replaceAll("\\s ","");
 		str=str.trim();
 		System.out.println("string after removal of spaces\n"+str);

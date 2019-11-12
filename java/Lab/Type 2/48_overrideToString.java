@@ -1,23 +1,23 @@
-//q48
-public class overrideToString {
+class overrideToString {
 	
 	public static void main(String[] args) {
 		
-		complexNo z = new complexNo(10, 15); 
-        System.out.println(c1); 
+		complex z = new complex(3, 5); 
+        System.out.println(z); 
 	}
 }
-class complexNo { 
+class complex { 
 
-    private double real, imaginary; 
+    private double r, i; 
   
-    public complexNo(double real, double imaginary) { 
+    public complex(double r, double i) { 
         
-        this.real = real; 
-        this.imaginary = imaginary; 
+        this.r = r; 
+        this.i = i; 
     }
+
     @Override
     public String toString() { 
-        return String.format(real + " + i" + imaginary); 
+        return String.format(r + " + i" + i); 
     } 
 } 

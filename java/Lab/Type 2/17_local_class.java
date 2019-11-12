@@ -1,4 +1,4 @@
-public class q17 {
+class local_class {
  
     public static void main(String a[]){
         ParentClass pc = new ParentClass();

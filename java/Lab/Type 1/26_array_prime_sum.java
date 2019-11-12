@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class q26{
+
+class array_prime_sum{
 public static void main (String[] args){
     int[] array = new int [5];
     int sum=0;

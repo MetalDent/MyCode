@@ -1,18 +1,19 @@
 import java.util.ArrayList;
 import java.util.Iterator;
-public class Demo {
+
+class iterator {
    public static void main(String[] args) {
-      ArrayList<String> aList = new ArrayList<String>();
-      aList.add("Apple");
-      aList.add("Mango");
-      aList.add("Guava");
-      aList.add("Orange");
-      aList.add("Peach");
+      ArrayList<String> arr = new ArrayList<String>();
+      arr.add("Hello");
+      arr.add("Hi");
+      arr.add("World");
+      arr.add("Yo");
+      arr.add("Meow");
       System.out.println("The ArrayList elements are: ");
-      for (String s: aList) {
+      for (String s: arr) {
          System.out.println(s);
       }
-      Iterator i = aList.iterator();
+      Iterator i = arr.iterator();
       String str = "";
       while (i.hasNext()) {
          str = (String) i.next();
@@ -23,7 +24,7 @@ public class Demo {
          }
       }
       System.out.println("\nThe ArrayList elements are: ");
-      for (String s: aList) {
+      for (String s: arr) {
          System.out.println(s); 
       }
    }

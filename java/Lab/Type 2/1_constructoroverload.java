@@ -1,59 +1,47 @@
-class Box 
+class constructor_overloading 
 { 
-    double width, height, depth; 
+    double w, h, d; 
   
-    // constructor used when all dimensions 
-    // specified 
-    Box(double w, double h, double d) 
+    constructor_overloading(double w, double h, double d) 
     { 
-        width = w; 
-        height = h; 
-        depth = d; 
+        w = w; 
+        h = h; 
+        h = d; 
     } 
   
-    // constructor used when no dimensions 
-    // specified 
-    Box() 
+    constructor_overloading() 
     { 
-        width = height = depth = 0; 
+        w = h = h = 0; 
     } 
   
-    // constructor used when cube is created 
-    Box(double len) 
+    constructor_overloading(double len) 
     { 
-        width = height = depth = len; 
+        w = h = h = len; 
     } 
   
-    // compute and return volume 
     double volume() 
     { 
-        return width * height * depth; 
+        return w * h * h; 
     } 
 } 
   
-// Driver code 
-public class Test 
+class Test 
 { 
     public static void main(String args[]) 
     { 
-        // create boxes using the various 
-        // constructors 
-        Box mybox1 = new Box(10, 20, 15); 
-        Box mybox2 = new Box(); 
-        Box mycube = new Box(7); 
+        constructor_overloading obj1 = new constructor_overloading(2, 4, 10); 
+        constructor_overloading obj2 = new constructor_overloading(); 
+        constructor_overloading obj3 = new constructor_overloading(14); 
   
         double vol; 
   
-        // get volume of first box 
-        vol = mybox1.volume(); 
+        vol = obj1.volume(); 
         System.out.println(" Volume of mybox1 is " + vol); 
   
-        // get volume of second box 
-        vol = mybox2.volume(); 
+        vol = obj2.volume(); 
         System.out.println(" Volume of mybox2 is " + vol); 
   
-        // get volume of cube 
-        vol = mycube.volume(); 
+        vol = obj3.volume(); 
         System.out.println(" Volume of mycube is " + vol); 
     } 
 } 

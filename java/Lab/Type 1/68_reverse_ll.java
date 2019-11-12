@@ -1,6 +1,4 @@
-// Java program for reversing the linked list 
-
-class q68linklist { 
+class reverse_ll { 
 
 	static Node head; 
 
@@ -15,7 +13,6 @@ class q68linklist {
 		} 
 	} 
 
-	/* Function to reverse the linked list */
 	Node reverse(Node node) { 
 		Node prev = null; 
 		Node current = node; 
@@ -30,7 +27,6 @@ class q68linklist {
 		return node; 
 	} 
 
-	// prints content of double linked list 
 	void printList(Node node) { 
 		while (node != null) { 
 			System.out.println(node.data + " "); 
@@ -39,19 +35,19 @@ class q68linklist {
 	} 
 
 	public static void main(String[] args) { 
-		q68linklist list = new q68linklist(); 
+		reverse_ll obj = new reverse_ll(); 
 
-		list.head = new Node(85); 
-		list.head.next = new Node(15); 
-		list.head.next.next = new Node(4); 
-		list.head.next.next.next = new Node(20); 
+		obj.head = new Node(15); 
+		obj.head.next = new Node(20); 
+		obj.head.next.next = new Node(47); 
+		obj.head.next.next.next = new Node(63); 
 		
 		System.out.println("Given Linked list"); 
-		list.printList(head); 
-		head = list.reverse(head); 
+		obj.printList(head); 
+		head = obj.reverse(head); 
 		System.out.println(""); 
 		System.out.println("Reversed linked list "); 
-		list.printList(head); 
+		obj.printList(head); 
 	} 
 } 
 

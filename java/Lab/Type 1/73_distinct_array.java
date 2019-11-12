@@ -1,5 +1,6 @@
 import java.util.Scanner;
-class q73distinct
+
+class distinct_array
 {
 	public static void main(String[] args) {
 		Scanner obj= new Scanner(System.in);

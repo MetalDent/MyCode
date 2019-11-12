@@ -1,15 +1,13 @@
-//q 39
-//copied from gfg and just changed names
 import java.io.*;
 
-public class mergeFiles {
+class mergeFiles {
 
 	public static void main(String[] args) throws IOException {
 		
 		PrintWriter writerObj = new PrintWriter("file3.txt");
 
-        BufferedReader readerf1 = new BufferedReader(new FileReader("/home/sundarayamrita/Documents/annaKarenina.txt")); 
-        BufferedReader readerf2 = new BufferedReader(new FileReader("/home/sundarayamrita/Documents/Programming/tswe/python/assignment/WarAndPeace.txt")); 
+        BufferedReader readerf1 = new BufferedReader(new FileReader("../Type 2/demo1")); 
+        BufferedReader readerf2 = new BufferedReader(new FileReader("../Type 2/demo2")); 
           
         String line1 = readerf1.readLine(); 
         String line2 = readerf2.readLine(); 

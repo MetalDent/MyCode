@@ -1,49 +1,47 @@
-//q 42
-
 import java.util.Scanner;
 
-public class throwVSthrows {
+class throw_throws {
 
-	public void calc(int firstOperand, int secondOperand, char operator) throws ArithmeticException{
+	public void calc(int f, int s, char operator) throws ArithmeticException{
 
 		switch(operator) {
 
 			case '+': 
-				System.out.println("Adding numbers = " + (firstOperand + secondOperand));
+				System.out.println("Adding numbers = " + (f + s));
 				break;
 			case '-': 
-				System.out.println("Subtracting numbers = " + (firstOperand - secondOperand));
+				System.out.println("Subtracting numbers = " + (f - s));
 				break;
 			case '*': 
-				System.out.println("Multiplying numbers = " + (firstOperand * secondOperand));
+				System.out.println("Multiplying numbers = " + (f * s));
 				break;
 			case '/': 
-				System.out.println("Dividing numbers = " + (firstOperand / secondOperand));
+				System.out.println("Dividing numbers = " + (f / s));
 				break;
 		}
 	}
 
 	public static void main(String[] args) {
 		
-		Scanner s = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
     	
     	System.out.print("Enter first operand: ");
-      	int firstOperand = s.nextInt();
+      	int f = in.nextInt();
       	
       	System.out.print("Enter second operand: ");
-      	int secondOperand = s.nextInt();
+      	int s = in.nextInt();
       	
       	System.out.print("Enter operator: ");
-      	char operator = s.next().charAt(0);
+      	char operator = in.next().charAt(0);
 
-		throwVSthrows obj = new throwVSthrows();
+		throw_throws obj = new throw_throws();
 		
-		if(secondOperand == 0 && operator == '/') {
+		if(s == 0 && operator == '/') {
 			throw new ArithmeticException("Can't divide by zero");
 		}
 
 
-		obj.calc(firstOperand, secondOperand, operator);
+		obj.calc(f, s, operator);
 
 		try{
 

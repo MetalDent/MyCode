@@ -1,25 +1,24 @@
-import java.io.*;
-class q18
-{
-	public static void main(String[] args)throws IOException 
-    {
-        int circlex,circley,x,y,rad;
-		System.out.println("enter circle centre -> x and y co-ordinates ");
-		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		circlex=Integer.parseInt(br.readLine());
-		circley=Integer.parseInt(br.readLine());
-		System.out.println("enter circle radius ");
-		rad=Integer.parseInt(br.readLine());
-		System.out.println("enter the point x and y you want to check ");
-		x=Integer.parseInt(br.readLine());
-		y=Integer.parseInt(br.readLine());
-		isIn(circlex,circley,x,y,rad);
+import java.util.Scanner;
+
+class point_on_circle {
+	public static void main(String[] args) {
+        int circle_x,circle_y,x,y,rad;
+		System.out.println("Enter circle centre (x and y co-ordinates) ");
+		Scanner in = new Scanner(System.in);
+		circle_x = in.nextInt();
+		circle_y = in.nextInt();
+		System.out.println("Enter circle radius ");
+		rad = in.nextInt();
+		System.out.println("Enter the point x and y you want to check ");
+		x = in.nextInt();
+		y = in.nextInt();
+		isIn(circle_x, circle_y, x, y, rad);
     }
-	public static void isIn(int circlex,int circley,int x,int y,int r)
-	{
-		if(((circlex-x)*(circlex-x))+((circley-y)*(circley-y))< (r*r))
-	       System.out.println("Point lies in the circle");
-	   else
-	   	 System.out.println("Point lies outside the circle");
+
+	public static void isIn(int circle_x, int circle_y, int x, int y, int r) {
+		if(((circle_x-x)*(circle_x-x)) + ((circle_y-y)*(circle_y-y)) < (r*r))
+	       	System.out.println("Point lies in the circle");
+	   	else
+	   	 	System.out.println("Point lies outside the circle");
 	}	
 }

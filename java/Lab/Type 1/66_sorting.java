@@ -1,10 +1,10 @@
 import java.util.Scanner;
  
-class q66sortings {
+class sorting {
   public static void main(String []args) {
-    int n  ,choice;
+    int n,choice;
     Scanner in = new Scanner(System.in);
-     System.out.println("enter 1 for bubble sort\n2 for selection sort");
+     System.out.println("Enter your choice: \n1: Bubble sort \n2: Selection sort");
     choice = in.nextInt();
  
     System.out.println("Input number of integers to sort");
@@ -13,61 +13,58 @@ class q66sortings {
     int array[] = new int[n];
  
     System.out.println("Enter integers");
- int c;
-    for ( c = 0; c < n; c++)
-      array[c] = in.nextInt();
+    for ( int i = 0; i < n; i++)
+      array[i] = in.nextInt();
    
    switch(choice)
    {
     case 1:
-    bubblesort(array);
-    break;
+          bubblesort(array);
+          break;
     case 2:
-    selectionsort(array);
-    break;
+          selectionsort(array);
+          break;
     default:
-        System.out.println("wrong choice");
+          System.out.println("wrong choice");
 
    }
  
     System.out.println("Sorted list of numbers:");
  
-    for (c = 0; c < n; c++)
-      System.out.println(array[c]);
+    for (int i = 0; i < n; i++)
+      System.out.println(array[i]);
   }
-  public static void bubblesort(int array[])
+  public static void bubblesort(int arr[])
   {
-    int n=array.length;
-        int d, swap;
-        int c;
+    int n=arr.length;
 
-     for (c = 0; c < ( n - 1 ); c++) {
-      for (d = 0; d < n - c - 1; d++) {
-        if (array[d] > array[d+1]) /* For descending order use < */
+     for (int i = 0; i < ( n - 1 ); i++) {
+      for (int j = 0; j < n - i - 1; j++) {
+        if (arr[j] > arr[j+1]) 
         {
-          swap       = array[d];
-          array[d]   = array[d+1];
-          array[d+1] = swap;
+          int tmp       = arr[j];
+          arr[j]   = arr[j+1];
+          arr[j+1] = tmp;
         }
       }
     }
 
   }
-  public static void selectionsort(int[] array)
+  public static void selectionsort(int[] arr)
   {  
-    for (int i = 0; i < array.length - 1; i++)  
+    for (int i = 0; i < arr.length - 1; i++)  
     { 
       int index = i;  
-      for (int j = i + 1; j < array.length; j++)
+      for (int j = i + 1; j < arr.length; j++)
       {   
-        if (array[j] < array[index]){ 
+        if (arr[j] < arr[index]){ 
           index = j;
         }  
       }  
  
-      int smallerNumber = array[index];   
-      array[index] = array[i];  
-      array[i] = smallerNumber;  
+      int smallerNumber = arr[index];   
+      arr[index] = arr[i];  
+      arr[i] = smallerNumber;  
       
     }  
   }  

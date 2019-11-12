@@ -1,16 +1,16 @@
 import java.io.*; 
-
 import java.util.Scanner;
-public class q35 { 
+
+class hadamard_matrix { 
     public static void main(String[] args) { 
-        int n;
+      
+      int n;
  
       Scanner in = new Scanner(System.in);
-      System.out.println("Enter the number of rows/columns of matrix");
+      System.out.println("Enter the number of rows and columns of matrix: ");
       n = in.nextInt();
-        boolean[][] hadamard = new boolean[n][n];
+      boolean[][] hadamard = new boolean[n][n];
 
-        // initialize Hadamard matrix of order n
         hadamard[0][0] = true;
         for (int k = 1; k < n; k += k) {
             for (int i = 0; i < k; i++) {
@@ -22,7 +22,6 @@ public class q35 {
             }
         }
 
-        // print matrix
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 if (hadamard[i][j]) System.out.print("+1 ");

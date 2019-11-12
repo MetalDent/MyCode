@@ -1,17 +1,18 @@
 import java.io.*; 
 import java.util.Scanner;
-public class q37 { 
+
+class StoM_array { 
 
     static public void main (String[] args) 
     { 
-        int n;
+        int choice;
  
       Scanner in = new Scanner(System.in);
-      System.out.println("Enter your option 1 for 1d to 2d and 2 for 2d to 1d");
-      n = in.nextInt();
-      switch(n){
+      System.out.println("Enter your option: \n1: 1d to 2d \n2: 2d to 1d");
+      choice = in.nextInt();
+      switch(choice){
           case 1:
-            System.out.println("Enter the total no. of elements in array");
+            System.out.println("Enter the no. of elements");
             int m = in.nextInt();
             int oned[] = new int[m];
             for (int c = 0; c < m; c++)

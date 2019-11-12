@@ -1,8 +1,6 @@
-//q40
-//I hope using final and static together is ok as per question's demands? I really can't find a no-redundant way to use final and static independent of each other.
 import java.util.Scanner;
 
-public class usingKeywords {
+class keywords_usage {
 
 	final static double PI = 3.14;
 	double radius;
@@ -22,8 +20,8 @@ public class usingKeywords {
 		
 		usingKeywords circle = new usingKeywords();
 		System.out.println("Default circle area = " + circle.area());
-		Scanner s = new Scanner(System.in);
-		double radius = s.nextInt();
+		Scanner in = new Scanner(System.in);
+		double radius = in.nextInt();
 		usingKeywords ud_circle = new usingKeywords(radius);
 		System.out.println("User defined circle area = " + ud_circle.area());
 	}

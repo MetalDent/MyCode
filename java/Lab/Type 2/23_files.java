@@ -1,11 +1,10 @@
- 
 import java.io.File;
 import java.io.FilenameFilter;
  
-public class q23 {
+class files {
  
     public static void main(String a[]){
-        File file = new File("C:/MyFolder/");
+        File file = new File("../Type 2");
         String[] files = file.list(new FilenameFilter() {
              
             @Override

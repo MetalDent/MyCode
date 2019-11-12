@@ -1,7 +1,5 @@
-//q33
-
 import java.util.Scanner;
-public class over_loading_riding {
+public class overloading_overriding {
 
 	public static void main(String[] args) {
 		

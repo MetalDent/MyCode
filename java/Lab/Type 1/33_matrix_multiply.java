@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-class q33
+class matrix_multiply
 {
    public static void main(String args[])
    {

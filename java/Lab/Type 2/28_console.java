@@ -1,26 +1,27 @@
-//q28
 import java.io.Console;
 import java.util.Arrays;
 
-public class consoleImplement {
+class console {
     
     public static void main(String[] args)
     {       
-        Console cnsl = System.console();
+        Console c = System.console();
         try{ 
         	
-        	String name = cnsl.readLine();
+        	String name = c.readLine();
         	System.out.println(name);
 
-        	char[] pwd = cnsl.readPassword("Password: ");
-        	char[] repwd = cnsl.readPassword("Retype Password: ");
-        	boolean isSame = Arrays.equals(pwd, repwd);
-        	if(isSame)	System.out.println("Same");
-        	else 	System.out.println("Invalid");
+        	char[] pass = c.readPassword("Password: ");
+        	char[] re_pass = c.readPassword("Retype Password: ");
+        	boolean isSame = Arrays.equals(pass, re_pass);
+        	if(isSame)	
+                System.out.println("Same");
+        	else 	
+                System.out.println("Invalid");
     	}
-    	catch(Exception ex) {
+    	catch(Exception e) {
         
-        	 ex.printStackTrace();      
+        	 e.printStackTrace();      
       	}
     }
 }

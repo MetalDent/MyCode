@@ -1,29 +1,25 @@
-package com.java2novice.arraylist;
- 
-import java.util.ArrayList;
+ import java.util.ArrayList;
 import java.util.Collections;
  
-public class MyArrayListShuffle {
+class shuffle {
  
     public static void main(String a[]){
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("Java");
-        list.add("Cric");
-        list.add("Play");
-        list.add("Watch");
-        list.add("Glass");
-        list.add("Movie");
-        list.add("Girl");
+        ArrayList<String> arr = new ArrayList<String>();
+        arr.add("Hello");
+        arr.add("Hi");
+        arr.add("World");
+        arr.add("Yo");
+        arr.add("Meow");
          
-        Collections.shuffle(list);
+        Collections.shuffle(arr);
         System.out.println("Results after shuffle operation:");
-        for(String str: list){
+        for(String str: arr){
             System.out.println(str);
         }
          
-        Collections.shuffle(list);
+        Collections.shuffle(arr);
         System.out.println("Results after shuffle operation:");
-        for(String str: list){
+        for(String str: arr){
             System.out.println(str);
         }
     }

@@ -1,18 +1,16 @@
-package com.java2novice.arraylist;
- 
 import java.util.ArrayList;
 import java.util.Iterator;
  
-public class ArrayListIterator {
+class read_arraylist {
  
     public static void main(String a[]){
-        ArrayList<String> arrl = new ArrayList<String>();
-        //adding elements to the end
-        arrl.add("First");
-        arrl.add("Second");
-        arrl.add("Third");
-        arrl.add("Random");
-        Iterator<String> itr = arrl.iterator();
+        ArrayList<String> arr = new ArrayList<String>();
+
+        arr.add("First");
+        arr.add("Second");
+        arr.add("Third");
+        arr.add("Random");
+        Iterator<String> itr = arr.iterator();
         while(itr.hasNext()){
             System.out.println(itr.next());
         }

@@ -1,10 +1,7 @@
-//q49
-package example.hello;
-
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
-public class Client {
+class Client {
 
     private Client() {}
 

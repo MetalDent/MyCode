@@ -1,13 +1,13 @@
-import java.util.*;
+import java.util.Scanner;
 
-class q39
+class matrix
 {
-    public static void main(String arg[])throws InputMismatchException
+    public static void main(String arg[])
     {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("Enter the number of rows for a square matrix (between 3 and 10): ");
-        int M = sc.nextInt();
+        int M = in.nextInt();
 
         if(M <=3 || M >=10){
 
@@ -25,10 +25,10 @@ class q39
 
                 for(j = 0; j < M; j++){
 
-                    a[i][j] = sc.nextInt();
+                    a[i][j] = in.nextInt();
 
-                }//loop j
-            }//loop i
+                }
+            }
 
             System.out.println("\nORIGINAL MATRIX: ");
             c = 0;
@@ -36,18 +36,15 @@ class q39
 
                 for(j = 0; j < M; j++){
 
-                    //print the elements of the original matrix
                      System.out.print(a[i][j]+ "   ");
 
-                     //store the non-boundary elements in an array
                      if(i != 0 && j != 0 && i != M-1 && j != M - 1)
                         b[c++] = a[i][j];
 
-                }//loop j
+                }
                  System.out.println();
-            }//loop i
+            }
 
-            //sort the non-boundary elements in ascending order
             for(i = 0; i < c; i++){
                 for(j = i+1; j < c; j++){
 
@@ -56,8 +53,8 @@ class q39
                         b[i] = b[j];
                         b[j] = t;
                     }
-                }//loop j
-            }//loop i
+                }
+            }
 
 
             c = 0;
@@ -65,28 +62,25 @@ class q39
 
                 for(j = 0; j < M; j++){
 
-                     //store the sorted elements at the non-boundary indeces
                      if(i != 0 && j != 0 && i != M-1 && j != M - 1)
                         a[i][j] = b[c++];
 
-                }//loop j
-            }//loop i
+                }
+            }
 
             System.out.println("\nREARRANGED MATRIX: ");
-            //Display the rearranged matrix
             for(i = 0; i < M; i++){
 
                 for(j = 0; j < M; j++){
 
                      System.out.print(a[i][j]+ "   ");
 
-                }//loop j
+                }
                  System.out.println();
-            }//loop i
+            }
 
 
             System.out.println("\nDIAGONAL ELEMENTS: ");
-            //Display the rearranged matrix's diagonal elements
             for(i = 0; i < M; i++){
 
                 for(j = 0; j < M; j++){
@@ -96,13 +90,13 @@ class q39
                     else
                      System.out.print("   ");
 
-                }//loop j
+                }
                  System.out.println();
-            }//loop i
+            }
 
 
         }
 
-    }//end of main
+    }
 
-}//end of class
+}

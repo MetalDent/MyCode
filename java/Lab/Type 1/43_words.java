@@ -1,5 +1,7 @@
 import java.util.*;
-class q43{
+
+class words{
+    
     public static boolean isVowel( char ch ){
         String vowel="aeiouAEIOU";
         return vowel.indexOf(ch)>=0;
@@ -8,9 +10,9 @@ class q43{
         return Character.isLetter(ch) && !isVowel(ch);
     }
     public static void main( String args[] ){
-        Scanner sc = new Scanner( System.in );
+        Scanner in = new Scanner( System.in );
         System.out.print( "INPUT: ");
-        String input = sc.nextLine();
+        String input = in.nextLine();
         char ch=input.charAt(input.length()-1);
         if( ch!='.' && ch!='?'){
             System.out.println("OUTPUT:Invalid Input");

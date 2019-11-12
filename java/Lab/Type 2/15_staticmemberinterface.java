@@ -1,19 +1,19 @@
-public class MyStaticMemberInterfaceTest 
-            implements MyStaticMemberInterface.MyStaticInterface{
+class TestInterface 
+            implements OuterInterface.InnerInterface{
 
     public void implementMe(){
         System.out.println("Hey I have implemented successfully!!!");
     }
     
     public static void main(String a[]){
-        MyStaticMemberInterfaceTest msi = new MyStaticMemberInterfaceTest();
+        TestInterface msi = new TestInterface();
         msi.implementMe();
     }
 }
 
-class MyStaticMemberInterface{
+class OuterInterface{
     
-    public static interface MyStaticInterface{
+    public static interface InnerInterface{
         public void implementMe();
     }
 }

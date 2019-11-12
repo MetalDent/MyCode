@@ -1,7 +1,7 @@
 import java.net.InetAddress;
 import java.net.UnknownHostException;
  
-public class q20 {
+class host_IP {
  
     public static void main(String a[]){
      

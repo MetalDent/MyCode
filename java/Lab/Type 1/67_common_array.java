@@ -1,24 +1,25 @@
 import java.util.Scanner;
-class q67common
+
+class common_array
 {
 	public static void main(String[] args) {
 		int m,n;
-		Scanner obj= new Scanner(System.in);
+		Scanner in= new Scanner(System.in);
 		System.out.println("enter the sizes of array");
-		m=obj.nextInt();
-		n=obj.nextInt();	
+		m=in.nextInt();
+		n=in.nextInt();	
 
 		int[] ar1=new int[m];
 		int[] ar2= new int[n];
 		System.out.println("enter the elemnets of array1");
 		for(int i=0;i<m;i++)
 		{
-			ar1[i]=obj.nextInt();
+			ar1[i]=in.nextInt();
 		}
 		System.out.println("enter the elemnets of array2");
 		for(int i=0;i<n;i++)
 		{
-			ar2[i]=obj.nextInt();
+			ar2[i]=in.nextInt();
 		}
 		System.out.println("common elemnts are ");
 

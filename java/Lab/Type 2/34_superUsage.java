@@ -1,8 +1,6 @@
-//q 34
-
 import java.util.Scanner;
 
-public class superUsage {
+public class super_uses {
 
 	public static void main(String[] args) {
 		

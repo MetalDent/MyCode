@@ -1,15 +1,11 @@
-
-// Java program to print anagrams  
-// together using dictionary  
 import java.util.*;  
   
-public class q40 {  
+class anagrams {  
   
     private static void printAnagrams(String arr[])  
     {  
         HashMap<String, List<String> > map = new HashMap<>();  
   
-        // loop over all words  
         for (int i = 0; i < arr.length; i++) {  
   
             String word = arr[i];  
@@ -40,7 +36,6 @@ public class q40 {
     public static void main(String[] args)  
     {  
   
-        // Driver program  
         String arr[] = { "cat", "dog", "tac", "god", "act" };  
         printAnagrams(arr);  
     }  

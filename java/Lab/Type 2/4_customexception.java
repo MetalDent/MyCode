@@ -1,29 +1,24 @@
-class MyException extends Exception 
+class customexception extends Exception 
 { 
-    public MyException(String s) 
+    public customexception(String s) 
     { 
-        // Call constructor of parent Exception 
         super(s); 
     } 
 } 
   
-// A Class that uses above MyException 
-public class Main 
+class Main 
 { 
-    // Driver Program 
     public static void main(String args[]) 
     { 
         try
         { 
-            // Throw an object of user defined exception 
-            throw new MyException("GeeksGeeks"); 
+            throw new customexception("throw exception"); 
         } 
-        catch (MyException ex) 
+        catch (customexception e) 
         { 
             System.out.println("Caught"); 
   
-            // Print the message from MyException object 
-            System.out.println(ex.getMessage()); 
+            System.out.println(e.getMessage()); 
         } 
     } 
 }

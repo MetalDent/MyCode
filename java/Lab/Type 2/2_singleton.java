@@ -1,32 +1,29 @@
 import java.io.*; 
   
-class MySingleton 
+class singleton 
 { 
-    static MySingleton instance = null; 
+    static singleton instance = null; 
     public int x = 10; 
     
-    // private constructor can't be accessed outside the class 
-    private MySingleton() {  } 
+    private singleton() {  } 
    
-    // Factory method to provide the users with instances 
-    static public MySingleton getInstance() 
+    static public singleton getInstance() 
     { 
         if (instance == null)         
-             instance = new MySingleton(); 
+             instance = new singleton(); 
    
         return instance; 
     }  
 } 
   
-// Driver Class 
 class Main 
 { 
    public static void main(String args[])     
    { 
-       MySingleton a = MySingleton.getInstance(); 
-       MySingleton b = MySingleton.getInstance(); 
-       a.x = a.x + 10; 
-       System.out.println("Value of a.x = " + a.x); 
-       System.out.println("Value of b.x = " + b.x); 
+       singleton obj1 = singleton.getInstance(); 
+       singleton obj2 = singleton.getInstance(); 
+       obj1.x = obj1.x + 10; 
+       System.out.println("Value of a.x = " + obj1.x); 
+       System.out.println("Value of b.x = " + obj2.x); 
    }     
 } 

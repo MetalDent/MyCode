@@ -1,25 +1,23 @@
-//q 38
-
 import java.io.*;
 
-public class instanceVariableHiding {
+class instanceVariableHiding {
 
 	public static void main(String[] args) {
 		
-		new update().displayinfo();
+		new example2().displayinfo();
 	}
 }
-class someInfotoOverwrite {
+class example {
 	
-	String name = "Amrita Sundaray";
-	String address = "Sarju Town, Nagpur";
+	String name = "Penny Hofstadter";
+	String address = "4B";
 }
-class update extends someInfotoOverwrite {
+class example2 extends example{
 
-	String address = "Vipul Garden, Bhubaneswar";
+	String address = "4A";
 	public void displayinfo() {
 
-		update info = new update();
+		example2 info = new example2();
 		System.out.println("Name: " + info.name);
 		System.out.println("Address: " + info.address);
 	}

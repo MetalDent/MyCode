@@ -1,10 +1,8 @@
-//q41
-
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 
-public class autoboxing_widening {
+class autoboxing_widening {
 
     public boolean isPrime(Integer n) {
 

@@ -1,8 +1,6 @@
-//q44
-
 import java.io.*;
 
-public class inheritedClassObject {
+class inheritedClassObject {
 
 	public static void main(String[] args) {
 		
@@ -12,13 +10,13 @@ public class inheritedClassObject {
 }
 class parent {
 
-	String name = "Susmita";
-	String surname = "Sundaray";
+	String name = "Mary";
+	String surname = "Cooper";
 }
 
 class child extends parent {
 
-	String cName = "Amrita";
+	String cName = "Sheldon";
 
 	void display(){
 

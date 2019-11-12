@@ -1,10 +1,3 @@
-// CREATE TABLE  `dbname`.`trn_imgs` (
-//   `img_id` int(10) unsigned NOT NULL auto_increment,
-//   `img_title` varchar(45) collate latin1_general_ci NOT NULL,
-//   `img_data` blob NOT NULL,
-//   PRIMARY KEY  (`img_id`)
-// );
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -14,9 +7,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-//import java.sql.*
-
-public class InsertImage{
+class InsertImage{
  
 	public static void main(String[] args) throws SQLException {
 		
@@ -45,7 +36,7 @@ public class InsertImage{
  
         try {
  
-            File image = new File("C:/honda.jpg");
+            File image = new File("/home/metaldent/Pictures/Screenshot from 2019-08-18 13-44-07.png");
             inputStream = new FileInputStream(image);
  
             connect = getConnection();

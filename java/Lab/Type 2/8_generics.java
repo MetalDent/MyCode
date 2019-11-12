@@ -1,6 +1,6 @@
 package com.java2novice.generics;
  
-public class MySimpleTwoGenerics {
+class generics {
  
     public static void main(String a[]){
          
@@ -10,17 +10,11 @@ public class MySimpleTwoGenerics {
     }
 }
  
-/**
- * Simple generics class with two type parameters U, V. 
- */
 class SimpleGen<U, V>{
      
-    //type U object reference
     private U objUreff;
-    //type V object reference
     private V objVreff;
      
-    //constructor to accept object type U and object type V
     public SimpleGen(U objU, V objV){
         this.objUreff = objU;
         this.objVreff = objV;

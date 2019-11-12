@@ -1,10 +1,9 @@
-//get all file lists from folder
 import java.io.File;
  
-public class q21 {
+class files {
      
     public static void main(String a[]){
-        File file = new File("mod2");
+        File file = new File("../Type 2");
         String[] fileList = file.list();
         for(String name:fileList){
             System.out.println(name);

@@ -1,7 +1,5 @@
 import java.io.*; 
   
-// Creating thread by creating the 
-// objects of that class 
 class ThreadJoining extends Thread 
 { 
     @Override
@@ -26,21 +24,17 @@ class ThreadJoining extends Thread
     } 
 } 
   
-class GFG 
+class Main 
 { 
     public static void main (String[] args) 
     { 
   
-        // creating two threads 
         ThreadJoining t1 = new ThreadJoining(); 
         ThreadJoining t2 = new ThreadJoining(); 
         ThreadJoining t3 = new ThreadJoining(); 
   
-        // thread t1 starts 
         t1.start(); 
   
-        // starts second thread after when 
-        // first thread t1 has died. 
         try
         { 
             System.out.println("Current Thread: "
@@ -54,10 +48,8 @@ class GFG
                                 "been caught" + ex); 
         } 
   
-        // t2 starts 
         t2.start(); 
   
-        // starts t3 after when thread t2 has died. 
         try
         { 
             System.out.println("Current Thread: "

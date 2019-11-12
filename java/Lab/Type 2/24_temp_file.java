@@ -3,7 +3,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
  
-public class q24 {
+public class temp_file {
  
     public static void main(String a[]){
  

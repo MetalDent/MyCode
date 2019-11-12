@@ -1,8 +1,6 @@
-package com.java2novice.nested.classes;
+ class Main {
  
-public class MyBasicStaticMemberClass {
- 
-    public static class MyStaticMemberExampleClass {
+    public static class InnerClass {
  
         public void printStatus() {
             System.out.println("Hey I am inside static member class");
@@ -10,16 +8,16 @@ public class MyBasicStaticMemberClass {
     }
  
     public static void main(String a[]) {
-        StaticMemberTestClass smt = new StaticMemberTestClass();
-        smt.testMemberClass();
+        TestClass obj = new TestClass();
+        obj.testMemberClass();
     }
 }
  
-class StaticMemberTestClass {
+class TestClass {
  
     public void testMemberClass() {
-        MyBasicStaticMemberClass.MyStaticMemberExampleClass msme 
-                    = new MyBasicStaticMemberClass.MyStaticMemberExampleClass();
-        msme.printStatus();
+        Main.InnerClass obj2 
+                    = new Main.InnerClass();
+        obj2.printStatus();
     }
 }

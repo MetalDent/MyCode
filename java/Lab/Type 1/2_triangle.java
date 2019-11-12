@@ -57,7 +57,7 @@ class triangle {
 
 	static boolean check_right(double x, double y, double z) {
 
-		double a = Math.pow(x, 2), b = Math.pow(y, 2), c=Math.pow(z, 2);
+		double a = Math.pow(x, 2), b = Math.pow(y, 2), c = Math.pow(z, 2);
 		if(check(x, y, z)){
 			if((a+b == c) || (b+c == a) || (c+a == b))
 				return true;

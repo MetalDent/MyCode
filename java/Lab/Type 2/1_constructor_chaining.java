@@ -1,30 +1,24 @@
-class Temp 
+class constructor_chaining 
 { 
-    // default constructor 1 
-    Temp() 
+    constructor_chaining() 
     { 
         System.out.println("default"); 
     } 
   
-    // parameterized constructor 2 
-    Temp(int x) 
+    constructor_chaining(int x) 
     { 
-        // invokes default constructor 
         this(); 
         System.out.println(x); 
     } 
   
-    // parameterized constructor 3 
-    Temp(int x, int y) 
+    constructor_chaining(int x, int y) 
     { 
-        // invokes parameterized constructor 2 
         this(5); 
         System.out.println(x * y); 
     } 
   
     public static void main(String args[]) 
     { 
-        // invokes parameterized constructor 3 
-        new Temp(8, 10); 
+        new constructor_chaining(8, 10); 
     } 
 } 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class q20 {
+class smith {
  public static void main(String args[])
 
  {

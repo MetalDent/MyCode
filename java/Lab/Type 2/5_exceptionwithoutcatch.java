@@ -1,12 +1,7 @@
-package com.myjava.exceptions;
-
-import java.net.MalformedURLException;
-import java.net.URL;
-
-public class MyTryBlockOnly {
-    public static void main(String a[]) throws MalformedURLException{
+class withoutCatch {
+    public static void main(String a[]) {
         try{
-            URL url = new URL("http://www.google.com");
+            int x = 10/0;
         } finally{
             System.out.println("In finally block");
         }

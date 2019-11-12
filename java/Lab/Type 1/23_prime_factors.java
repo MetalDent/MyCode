@@ -1,20 +1,20 @@
-import java.io.*;
+import java.util.Scanner;
 
-public class q23 {
-   public static void main(String args[])throws IOException{
-      int number;
-      BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+class prime_factors {
+   public static void main(String args[]) {
+      int n;
+    Scanner in = new Scanner(System.in);
         System.out.println("Enter the number ");
-        number=Integer.parseInt(br.readLine());
+        n=in.nextInt();
         
-      for(int i = 2; i< number; i++) {
-         while(number%i == 0) {
+      for(int i = 2; i< n; i++) {
+         while(n%i == 0) {
             System.out.println(i+" ");
-            number = number/i;
+            n = n/i;
          }
       }
-      if(number >2) {
-         System.out.println(number);
+      if(n >2) {
+         System.out.println(n);
       }
    }
 }

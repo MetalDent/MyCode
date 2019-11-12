@@ -1,11 +1,12 @@
 import java.util.Scanner;
 import java.lang.*;
-class toggle
+
+class change_case
 {
 	public static void main(String[] args) {
-		Scanner obj= new Scanner(System.in);
-		System.out.println("enter the string ");
-		String s=obj.nextLine();
+		Scanner in= new Scanner(System.in);
+		System.out.println("Enter the string ");
+		String s=in.nextLine();
 		int l=s.length();
 		char c[]=new char [l];
 		c=s.toCharArray();
@@ -18,7 +19,7 @@ class toggle
 				c[i]=(char)(c[i]+32);
 		}
 		String str=new String(c);
-		System.out.println("new string toggled:\n"+str);
+		System.out.println(str);
 
 
 	}

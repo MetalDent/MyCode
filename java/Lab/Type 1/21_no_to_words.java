@@ -1,11 +1,12 @@
 import java.util.Scanner;
-class words
+
+class no_to_words
 {
 	public static void main(String[] args) {
 		int num;
 		Scanner obj= new Scanner(System.in);
 		System.out.println("enter the number");
-		/*num=obj.nextInt();
+		num=obj.nextInt();
 		int r=0;
 		while(num!=0)
 		{
@@ -13,8 +14,8 @@ class words
 			convert(r);
 			num/=10;
 
-		}*/
-		convert(obj.next().charAt(0).atoi());
+		}
+		//convert(obj.next().charAt(0).atoi());
 	}
 	static void  convert(int x)
 	{

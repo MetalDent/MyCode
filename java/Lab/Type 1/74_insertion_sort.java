@@ -1,17 +1,18 @@
 import java.util.Scanner;
-class q74insert
+
+class insertion_sort
 {
 	public static void main(String[] args) {
-		Scanner obj= new Scanner(System.in);
+		Scanner in= new Scanner(System.in);
 		System.out.println("Enter the size of array");
-		int n= obj.nextInt();
+		int n= in.nextInt();
 		int[] ar = new int[n];
-		System.out.println("enter the array elements");
+		System.out.println("Enter the array elements");
 		for(int i=0;i<n;i++)
 		{
-			ar[i]=obj.nextInt();
+			ar[i]=in.nextInt();
 		}
-		System.out.println("sorted the array elements");
+		System.out.println("Sorted array elements");
 
 		insertionSort(ar,n);
 	}

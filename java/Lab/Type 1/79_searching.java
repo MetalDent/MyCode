@@ -1,27 +1,28 @@
 import java.util.Scanner;
-class search79
+
+class searching
 {
 	public static void	main(String args[])
 	{
-		char c;
-		Scanner obj= new Scanner(System.in);
+		char e;
+		Scanner in= new Scanner(System.in);
 
 		do
 		{
 		System.out.println("enter \n1-linear search\n2-binary search\n");
-		int choice=obj.nextInt();
+		int choice=in.nextInt();
 		System.out.println("enter array size");
-		int n=obj.nextInt();
+		int n=in.nextInt();
 		
 		System.out.println("enter the array elements");
 			int ar[]=new int[n];
 
 			for(int i=0;i<n;i++)
 			{
-					ar[i]=obj.nextInt();
+					ar[i]=in.nextInt();
 			}
 			System.out.println("enter the number to be searched\n");
-		int x=obj.nextInt();
+		int x=in.nextInt();
 		switch(choice)
 		{
 			case 1: linear(ar,n,x);
@@ -35,8 +36,8 @@ class search79
 			default: System.out.println("wrong choice!!");
 		}
 		System.out.println("Do you want to continue? [y/n]");
-		c=obj.next().charAt(0);
-	}while(c=='y');
+		e=in.next().charAt(0);
+	}while(e=='y');
 	}
 
 	public static void linear(int ar[],int n, int x)
@@ -67,7 +68,6 @@ class search79
 						low= mid+1;
 					else if( ar[mid]==x)
 					{
-						//System.out.println("number found at "+low);
 						return mid;
 					}
 					

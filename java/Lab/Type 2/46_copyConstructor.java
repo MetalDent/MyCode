@@ -1,5 +1,4 @@
-//q46
-public class copyConstructor {
+class copyConstructor {
 
 	public static void main(String[] args) {
 		

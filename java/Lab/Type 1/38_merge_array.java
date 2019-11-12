@@ -1,13 +1,8 @@
 
-class q38
-
-{ 
-	/* Function to move m elements at the end of array mPlusN[] */
-	void moveToEnd(int mPlusN[], int size) 
-	{ 
+class merge_array { 
+	void moveToEnd(int mPlusN[], int size) { 
 		int i, j = size - 1; 
-		for (i = size - 1; i >= 0; i--) 
-		{ 
+		for (i = size - 1; i >= 0; i--) { 
 			if (mPlusN[i] != -1) 
 			{ 
 				mPlusN[j] = mPlusN[i]; 
@@ -16,29 +11,21 @@ class q38
 		} 
 	} 
 
-	/* Merges array N[] of size n into array mPlusN[] 
-	of size m+n*/
-	void merge(int mPlusN[], int N[], int m, int n) 
-	{ 
+	void merge(int mPlusN[], int N[], int m, int n) { 
 		int i = n; 
 		
-		/* Current index of i/p part of mPlusN[]*/
 		int j = 0; 
 		
-		/* Current index of N[]*/
 		int k = 0; 
 		
-		/* Current index of output mPlusN[]*/
-		while (k < (m + n)) 
-		{ 
-			if ((i < (m + n) && mPlusN[i] <= N[j]) || (j == n)) 
-			{ 
+		while (k < (m + n)) { 
+			if ((i < (m + n) && mPlusN[i] <= N[j]) || (j == n)) { 
 				mPlusN[k] = mPlusN[i]; 
 				k++; 
 				i++; 
 			} 
-			else // Otherwise take element from N[] 
-			{ 
+			
+			else {
 				mPlusN[k] = N[j]; 
 				k++; 
 				j++; 
@@ -46,11 +33,10 @@ class q38
 		} 
 	} 
 
-	/* Utility that prints out an array on a line */
 	void printArray(int arr[], int size) 
 	{ 
 		int i; 
-		for (i = 0; i < size; i++) 
+		for(i = 0; i < size; i++) 
 			System.out.print(arr[i] + " "); 
 
 		System.out.println(""); 
@@ -58,22 +44,18 @@ class q38
 
 	public static void main(String[] args) 
 	{ 
-		q38 mergearray = new q38(); 
+		merge_array obj = new merge_array(); 
 		
-		/* Initialize arrays */
 		int mPlusN[] = {2, 8, -1, -1, -1, 13, -1, 15, 20}; 
 		int N[] = {5, 7, 9, 25}; 
 		int n = N.length; 
 		int m = mPlusN.length - n; 
 
-		/*Move the m elements at the end of mPlusN*/
-		mergearray.moveToEnd(mPlusN, m + n); 
+		obj.moveToEnd(mPlusN, m + n); 
 
-		/*Merge N[] into mPlusN[] */
-		mergearray.merge(mPlusN, N, m, n); 
+		obj.merge(mPlusN, N, m, n); 
 
-		/* Print the resultant mPlusN */
-		mergearray.printArray(mPlusN, m + n); 
+		obj.printArray(mPlusN, m + n); 
 	} 
 } 
 

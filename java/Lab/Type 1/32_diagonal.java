@@ -1,9 +1,9 @@
 import java.io.*; 
 import java.util.Scanner;
-public class q32 { 
+
+class diagonal { 
   
-    static void printDiagonalSums(int [][]mat, 
-                                         int n) 
+    static void printDiagonalSums(int [][]mat, int n) 
     { 
         int principal = 0, secondary = 0; 
         for (int i = 0; i < n; i++) { 
@@ -17,11 +17,9 @@ public class q32 {
             } 
         } 
       
-        System.out.println("Principal Diagonal:"
-                                    + principal); 
+        System.out.println("Principal Diagonal:" + principal); 
                                       
-        System.out.println("Secondary Diagonal:"
-                                    + secondary); 
+        System.out.println("Secondary Diagonal:" + secondary); 
     } 
   
     static public void main (String[] args) 
