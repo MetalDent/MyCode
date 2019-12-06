@@ -9,7 +9,7 @@ class files {
              
             @Override
             public boolean accept(File dir, String name) {
-                if(name.toLowerCase().endsWith(".csv")){
+                if(name.toLowerCase().endsWith(".class")){
                     return true;
                 } else {
                     return false;

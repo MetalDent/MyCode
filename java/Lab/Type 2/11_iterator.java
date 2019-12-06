@@ -17,9 +17,9 @@ class iterator {
       String str = "";
       while (i.hasNext()) {
          str = (String) i.next();
-         if (str.equals("Orange")) {
+         if (str.equals("Hi")) {
             i.remove();
-            System.out.println("\nThe element Orange is removed");
+            System.out.println("\nThe element Hi is removed");
             break;
          }
       }

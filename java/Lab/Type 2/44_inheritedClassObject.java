@@ -20,7 +20,7 @@ class child extends parent {
 
 	void display(){
 
-		child info = new child();
-		System.out.println(info.cName + " " + info.surname);
+
+		System.out.println(cName + " " + surname);
 	}
 }

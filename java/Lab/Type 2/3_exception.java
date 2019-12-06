@@ -1,4 +1,4 @@
-package com.myjava.exceptions;
+//package com.myjava.exceptions;
 
 class exception {
     public static void main(String a[]){

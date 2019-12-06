@@ -1,5 +1,4 @@
-class TestInterface 
-            implements OuterInterface.InnerInterface{
+class TestInterface implements OuterInterface.InnerInterface{
 
     public void implementMe(){
         System.out.println("Hey I have implemented successfully!!!");

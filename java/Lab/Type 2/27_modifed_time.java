@@ -1,7 +1,7 @@
 import java.io.File;
 import java.util.Date;
 
-public class modified_time
+class modified_time
  {
        public static void main(String[] args) {
        File file = new File("new.txt");

@@ -1,4 +1,4 @@
- public class MyBoundedInterface {
+class MyBoundedInterface {
  
     public static void main(String a[]){
          
